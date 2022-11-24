@@ -1,0 +1,44 @@
+header {
+    background-color: lightgray;
+    font-size: x-large;
+    border-radius: 30px 30px 30px 30px;
+    padding: 20px;
+    text-align: left;
+    font-weight: bolder;
+}
+
+body {
+    text-align: center;
+    font-family: 'Poor Story', cursive;
+    background-image: url('tp183-nunny-hdwallpaper-01.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+caption #search {
+    font-size: 50px;
+    text-align: left;
+}
+
+article {}
+
+table {
+    background-color: white;
+}
+
+thead {
+    font-size: 50px;
+}
+
+td {
+    padding: 25px;
+}
+
+caption .realtitle {
+    font-size: 50px;
+}
+
+caption {
+    background-color: rgb(254, 235, 216);
+    border-radius: 10px 10px 10px 10px;
+}
