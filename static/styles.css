@@ -3,28 +3,57 @@ header {
     font-size: x-large;
     border-radius: 30px 30px 30px 30px;
     padding: 20px;
+    margin: 10px;
     text-align: left;
     font-weight: bolder;
 }
 
+
+.about{
+  margin: 10px; padding: 10px;
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.about-content{
+  text-align: left;
+  font-size:x-large;
+  font-weight: bold;
+  margin: 10px 510px; 
+  padding: 15px 10px;
+  background-color: white;
+  background-color: rgba(235, 235, 235, 0.87);
+  border-radius: 30px 30px 30px 30px;
+}
+
 body {
-    text-align: center;
     font-family: 'Poor Story', cursive;
-    background-image: url('tp183-nunny-hdwallpaper-01.jpg');
+    background-image: url('orangeblue.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment : fixed;
 }
 
-caption #search {
-    font-size: 40px;
-    text-align: center;
+article {
+  margin: 10px; padding: 10px;
+  font-size: x-large;
+  font-weight:bold;
+  text-align: center;
 }
-
-article {}
+.up {
+  margin: 10px; padding: 10px;
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bold;
+}
 
 table {
     background-color: white;
+    text-align: center;
+    margin: 20px auto;
 }
+
 
 thead {
     font-size: 50px;
@@ -34,13 +63,28 @@ td {
     padding: 25px;
 }
 
-caption {
-    font-size: 40px;
-    text-align: center;
-    background-color: lightgray;
-    background-color: rgba( 255, 255, 255, 0.9);
-    font-size: x-large;
-    border-radius: 10px 10px 10px 10px;
-    padding: 10px;
-    font-family: 'Nanum Gothic', sans-serif;
+section .img {
+  display: flex;
+}
+
+.image{
+  text-align: center;
+}
+
+
+caption{
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+footer{
+  font-size: large;
+  height:137px;
+  position: relative;  
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  background-color: white;
+  background-color: rgba(245, 245, 245, 0.644);
+  margin: 0;
 }
