@@ -8,24 +8,24 @@ header {
     font-weight: bolder;
 }
 
-
-.about{
-  margin: 10px; padding: 10px;
-  text-align: center;
-  font-size: xx-large;
-  font-weight: bold;
+.about {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
 }
 
-.about-content{
-  text-align: center;
-  font-size:x-large;
-  font-weight: bold;
-  margin: 10px 250px;
-  padding: 15px 10px;
-  min-width: 300px;
-  background-color: white;
-  background-color: rgba(235, 235, 235, 0.87);
-  border-radius: 30px 30px 30px 30px;
+.about-content {
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    margin: 10px 250px;
+    padding: 15px 10px;
+    min-width: 300px;
+    background-color: white;
+    background-color: rgba(235, 235, 235, 0.87);
+    border-radius: 30px 30px 30px 30px;
 }
 
 body {
@@ -33,20 +33,23 @@ body {
     background-image: url('orangeblue.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment : fixed;
+    background-attachment: fixed;
 }
 
 article {
-  margin: 10px; padding: 10px;
-  font-size: x-large;
-  font-weight:bold;
-  text-align: center;
+    margin: 10px;
+    padding: 10px;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
 }
+
 .up {
-  margin: 10px; padding: 10px;
-  text-align: center;
-  font-size: xx-large;
-  font-weight: bold;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
 }
 
 table {
@@ -54,7 +57,6 @@ table {
     text-align: center;
     margin: 20px auto;
 }
-
 
 thead {
     font-size: 50px;
@@ -65,27 +67,27 @@ td {
 }
 
 section .img {
-  display: flex;
+    display: flex;
 }
 
-.image{
-  text-align: center;
+.image {
+    text-align: center;
 }
 
-
-caption{
-  font-size: 40px;
-  font-weight: bolder;
+caption {
+    font-size: 40px;
+    font-weight: bolder;
 }
 
-footer{
-  font-size: large;
-  height:137px;
-  position: relative;  
-  bottom: 0;
-  left: 0;
-  text-align: center;
-  background-color: white;
-  background-color: rgba(245, 245, 245, 0.644);
-  margin: 0;
+footer {
+    font-size: large;
+    height: 137px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    background-color: white;
+    background-color: rgba(245, 245, 245, 0.644);
+    margin: 0;
+    border-radius: 30px 30px 30px 30px;
 }
