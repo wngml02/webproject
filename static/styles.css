@@ -20,7 +20,8 @@ header {
     text-align: center;
     font-size: x-large;
     font-weight: bold;
-    margin: 10px 250px;
+    width: 900px;
+    margin: 0 auto;
     padding: 15px 10px;
     min-width: 300px;
     background-color: white;
