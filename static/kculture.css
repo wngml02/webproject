@@ -5,7 +5,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   text-align: center;
-  min-width: 300px;
+  min-width: 1000px;
 }
 
 header {
@@ -22,8 +22,8 @@ font-size: 50px;
 font-weight: bolder;
 font-style: italic;
 border-bottom: 5px solid lightseagreen;
-/*width: 700px;
-margin: 0 auto;*/
+width: 700px;
+margin: 0 auto;
 }
 
 .page-footer{
@@ -51,15 +51,15 @@ margin: 0 auto;*/
 }
 
 .target p, .genre p{
-/*width: 990px;
-margin:0 auto;*/
+width: 990px;
+margin:0 auto;
 min-width: 300px;
 text-align: left;
 font-weight: normal;
 }
 .period p{
-  /*width: 800px;
-  margin:0 auto;*/
+  width: 800px;
+  margin:0 auto;
   min-width: 300px;
   text-align: left;
   font-weight: normal;
@@ -86,7 +86,7 @@ text-align: center;
 }
 
 h3{
-/*width: 450px;
-margin:0 auto;*/
+width: 450px;
+margin:0 auto;
 border-bottom: 5px solid rgb(114, 114, 114);
 }
