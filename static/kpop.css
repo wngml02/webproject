@@ -5,6 +5,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     text-align: center;
+    min-width: 300px;
 }
 
 header {
@@ -22,8 +23,6 @@ header {
     font-weight: bolder;
     font-style: italic;
     border-bottom: 5px solid lightcoral;
-    width: 700px;
-    margin: 0 auto;
 }
 
 .page-footer {
@@ -52,16 +51,16 @@ header {
 
 .target p,
 .genre p {
-    width: 990px;
-    margin: 0 auto;
+    /*width: 990px;
+    margin: 0 auto;*/
     min-width: 300px;
     text-align: left;
     font-weight: normal;
 }
 
 .period p {
-    width: 800px;
-    margin: 0 auto;
+    /*width: 800px;
+    margin: 0 auto;*/
     min-width: 300px;
     text-align: left;
     font-weight: normal;
@@ -91,7 +90,7 @@ section {
 }
 
 h3 {
-    width: 450px;
-    margin: 0 auto;
+    /*width: 450px;
+    margin: 0 auto;*/
     border-bottom: 5px solid rgb(114, 114, 114);
 }
