@@ -20,7 +20,6 @@ header {
     text-align: center;
     font-size: x-large;
     font-weight: bold;
-    
     padding: 15px 10px;
     min-width: 300px;
     background-color: white;
@@ -30,7 +29,7 @@ header {
 
 body {
     font-family: 'Poor Story', cursive;
-    background-image: url('88.jpg');
+    background-image: url('24.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -38,15 +37,23 @@ body {
 }
 
 @keyframes textColorAnimation {
-  0%{color: rgb(0, 60, 255);}
-  50%{color: rgb(0, 197, 33);}
-  100%{color: rgb(0, 60, 255);}
+    0% {
+        color: rgb(0, 60, 255);
+    }
+    50% {
+        color: rgb(0, 197, 33);
+    }
+    100% {
+        color: rgb(0, 60, 255);
+    }
 }
-span{
-  animation-name: textColorAnimation;
-  animation-duration: 1s;
-  animation-iteration-count:infinite;
+
+span {
+    animation-name: textColorAnimation;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
 }
+
 article {
     margin: 10px;
     padding: 10px;
@@ -78,9 +85,11 @@ td {
     padding: 25px;
     background-color: antiquewhite;
 }
-tbody td:hover{
-  background-color: lightcoral;
+
+tbody td:hover {
+    background-color: lightcoral;
 }
+
 section .img {
     display: flex;
 }
