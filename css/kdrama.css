@@ -1,6 +1,6 @@
 body {
     font-family: 'Poor Story', cursive;
-    background-image: url('24.jpg');
+    background-image: url('../static/24.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -22,9 +22,10 @@ header {
     font-size: 50px;
     font-weight: bolder;
     font-style: italic;
-    border-bottom: 5px solid lightseagreen;
+    border-bottom: 5px solid skyblue;
     width: 700px;
     margin: 0 auto;
+    
 }
 
 .page-footer {
@@ -47,12 +48,16 @@ header {
     border-radius: 30px 30px 30px 30px;
 }
 
+.period img {
+    border-radius: 30px;
+}
+
 .target img {
     margin: 5px;
 }
 
 .target p,
-.genre p {
+.period p {
     width: 990px;
     margin: 0 auto;
     min-width: 300px;
@@ -60,29 +65,23 @@ header {
     font-weight: normal;
 }
 
-.period p {
-    width: 800px;
-    margin: 0 auto;
-    min-width: 300px;
-    text-align: left;
-    font-weight: normal;
-}
-
-.genre img,
-.period img,
-.target img {
+.image1 img {
     align-items: center;
-    border: 3px solid rgb(114, 114, 114);
+    border-radius: 30px;
+    border: 5px solid rgb(114, 114, 114);
     margin: 40px auto auto auto;
 }
 
 section p,
 .target span,
-.genre span,
-.period span {
+.genre span {
     font-size: 30px;
     font-weight: bold;
     text-align: center;
+}
+
+.genre p {
+    font-weight: normal;
 }
 
 section {
