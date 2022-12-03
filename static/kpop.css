@@ -23,6 +23,8 @@ header {
     font-weight: bolder;
     font-style: italic;
     border-bottom: 5px solid lightcoral;
+    margin: 0 auto;
+    width: 700px;
 }
 
 .page-footer {
