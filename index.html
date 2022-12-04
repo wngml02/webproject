@@ -10,16 +10,32 @@
     <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
-    <script src="js/index.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script>
+      function hideMenu() {
+        alert("오른쪽 클릭<컨텍스트 메뉴>금지");
+        return false;
+      }
+      document.oncontextmenu=hideMenu;
+    </script>
 </head>
 
-<body>
+<body id="body">
     <header>
         <div class="head">
             🟢🔵🟣 2022 Webprogramming Project
         </div>
     </header><br>
-
+    <div id = "select">
+      <button id = "button" onclick="change()">배경바꾸기</button>
+      <br>
+      <select id="site">
+        <option value="http://www.naver.com" selected>네이버
+        <option value="http://www.google.com">구글
+        <option value="http://www.microsoft.com">마이크로소프트
+      </select>
+      <button onclick="siteload()">웹 사이트 접속</button>
+    </div>
     <div class="about">
         <h1>어서오세요! <strong>한류</strong>로🌊 </h1>
     </div>
@@ -33,6 +49,21 @@
             <img src="static/kcultture.jpg" width="500px" ; height="500px" ; alt="한국문화그림">
             <img src="static/kpop.jpg" width="500px" ; height="500px" ; alt="한류를 이끈 kpop 그룹들">
         </div>
+        <div class = "container">
+          <div class="idol" onload="imginit()">
+            <div class="images">
+              <img src="static/exo1.jpg">
+              <img src="static/straykids.jpg">
+              <img src="static/exo2.jpg">
+              <img src="static/nct127.jpg">
+              <img src="static/monstax.jpg">
+              <img src="static/exo3.jpg">
+            </div>
+          </div>
+          <button class="previous">←</button> 
+          <button class="next">→</button>
+          <script src="js/image.js"></script>
+        </div>
         <article class="imgarticle">
             <div class="up">
                 ✔ 한류에 대해 궁금💁🏻‍♀️한 점이 있나요? <br> ✔ 한류에 관심💜을 가지고 있나요?<br> ✔ 현재 한류는 어떨까요?🤷🏻‍♀️<br><br>
@@ -43,7 +74,7 @@
     </section>
     <section class="tabble">
         <center>
-            <table border="1">
+            <table border="1" >
                 <caption>
                     🏃🏻‍♂️한류의 시기별, 분야별 특징 보러 가기🏃🏻‍♂️
                 </caption>
@@ -52,16 +83,16 @@
                     <th>K-POP</th>
                     <th>K-CULTURE</th>
                 </thead>
-                <tbody>
+                <tbody id="tbody" >
                     <tr>
                         <td>
-                            <a href="javascript:load('drama.html')"><img src='static/free-icon-drama-2892524.png' alt="kdrama" width="250" height="250"></a>
+                            <a onload="init()" href="javascript:load('drama.html')"><img src='static/free-icon-drama-2892524.png' alt="kdrama" width="250" height="250"></a>
                         </td>
                         <td>
-                            <a href="javascript:load('kpop.html')"><img src='static/free-icon-kpop-4918287.png' alt="kpop" width="250" height="250"></a>
+                            <a onload="init()" href="javascript:load('kpop.html')"><img src='static/free-icon-kpop-4918287.png' alt="kpop" width="250" height="250"></a>
                         </td>
                         <td>
-                            <a href="javascript:load('kculture.html')"><img src='static/free-icon-korea-6449302.png' alt="kculture" width="250" height="250"></a>
+                            <a onload="init()" href="javascript:load('kculture.html')"><img src='static/free-icon-korea-6449302.png' alt="kculture" width="250" height="250"></a>
                         </td>
                     </tr>
                 </tbody>

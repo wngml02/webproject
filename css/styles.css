@@ -86,9 +86,9 @@ td {
     background-color: antiquewhite;
 }
 
-tbody td:hover {
+/*tbody td:hover {
     background-color: lightcoral;
-}
+}*/
 
 section .img {
     display: flex;
@@ -114,4 +114,44 @@ footer {
     background-color: rgba(245, 245, 245, 0.644);
     margin: 0;
     border-radius: 30px 30px 30px 30px;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.idol{
+  width: 800px;
+  height: 600px;
+  overflow: hidden;
+}
+
+.images{
+  position: relative;
+  display: flex;
+  height: 600px;
+}
+
+.idol img{
+  width: 800px;
+  height: 600px;
+}
+
+.previous, .next, button:active, button:focus{
+  width: 100px;
+  height: 25px;
+  background-color: antiquewhite;
+}
+
+button:disabled{
+  background-color: grey;
+}
+
+.prev{
+  float: left;
+}
+
+.next{
+  float: right;
 }
