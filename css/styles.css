@@ -8,6 +8,16 @@ header {
     font-weight: bolder;
 }
 
+.submenu {
+  margin-bottom:60px;
+  list-style-type: none;
+}
+.submenu li{
+  border-bottom: 1px;
+  padding: 10px;
+  display:inline;
+}
+
 .aboutTitle {
   display: flex;
   justify-content: center;
@@ -45,7 +55,7 @@ body {
     }
 }
 
-span {
+.about-content span {
     animation-name: textColorAnimation;
     animation-duration: 1s;
     animation-iteration-count: infinite;
@@ -83,9 +93,9 @@ td {
     background-color: antiquewhite;
 }
 
-/*tbody td:hover {
+tbody td:hover {
     background-color: lightcoral;
-}*/
+}
 
 section .img {
     display: flex;

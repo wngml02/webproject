@@ -25,27 +25,33 @@
         <div class="head">
             🟢🔵🟣 2022 Webprogramming Project
         </div>
-    </header><br>
+    </header>
     <div id = "menu">
-      <button id = "button" onclick="change()">배경바꾸기</button>
-      <br>
-      <select id="site">
-        <option value="http://www.naver.com" selected>네이버
-        <option value="http://www.google.com">구글
-        <option value="http://www.microsoft.com">마이크로소프트
-      </select>
-        <button onclick="siteload()">웹 사이트 접속</button>
-      <div id = "audioset">
-        <audio id="audio" src = "static/audio.mp3" loop controls>웹 브라우저가 audio 태그를 지원하지 않습니다.</audio><br>
-        <button type="button" id="play" onclick="control(event)">play</button>
-        <button type="button" id="pause" onclick="control(event)">pause</button>
-        <button type="button" id="replay" onclick="control(event)">replay</button>
-        <button type="button" id="vol-" onclick="control(event)">vol-</button>
-        <button type="button" id="vol+" onclick="control(event)">vol+</button>
-        <button type="button" id="mute on/off" onclick="control(event)">mute on/off</button>
-        <script src="js/audio.js"></script>
-      </div>
-    </div>
+      <ul class="submenu"> <span style="font-size:x-large ;">Setting 👉🏻 </span>
+        <li>
+          <button id = "button" onclick="change()">배경바꾸기</button>
+        </li>
+        <li>
+          <select id="site">
+            <option value="http://www.naver.com" selected>네이버
+            <option value="http://www.google.com">구글
+            <option value="http://www.microsoft.com">마이크로소프트
+          </select>
+            <button onclick="siteload()">웹 사이트 접속</button>
+        <li id = "audioli">
+          <audio id="audio" src = "static/audio.mp3" loop controls>웹 브라우저가 audio 태그를 지원하지 않습니다.</audio>
+        </li>
+        <li>
+          <button type="button" id="play" onclick="control(event)">play</button>
+          <button type="button" id="pause" onclick="control(event)">pause</button>
+          <button type="button" id="replay" onclick="control(event)">replay</button>
+          <button type="button" id="vol-" onclick="control(event)">vol-</button>
+          <button type="button" id="vol+" onclick="control(event)">vol+</button>
+          <button type="button" id="mute on/off" onclick="control(event)">mute on/off</button>
+          <script src="js/audio.js"></script>
+        </li>
+      </ul>
+    </div><br>
     <div class="aboutTitle" data-trigger>
       <h1 class="text"></h1>
       <script src="js/typing.js"></script>  

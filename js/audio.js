@@ -1,4 +1,4 @@
-let div = document.getElementById("msg");
+let div = document.getElementById("menu");
 let audio = document.getElementById("audio");
 function control(e) {
 	let id = e.target.id;
