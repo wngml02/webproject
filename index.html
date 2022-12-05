@@ -34,10 +34,10 @@
         <option value="http://www.google.com">구글
         <option value="http://www.microsoft.com">마이크로소프트
       </select>
-      <button onclick="siteload()">웹 사이트 접속</button>
+        <button onclick="siteload()">웹 사이트 접속</button>
     </div>
     <div class="about">
-        <h1>어서오세요! <strong>한류</strong>로🌊 </h1>
+        <h1><strong id="about">한류에 대해🌊</strong> </h1>
     </div>
     <div class="about-content">
         <span style="font-size:larger; background-color:rgba(206, 206, 206, 0.801)">한류</span>란?<br> 📌한국의 대중문화 즉 영화, 방송, 대중음악, 패션 등이 해외에서 인기몰이를 하고 있는 현상📈<br> K-drama를 시작으로 K-pop, K-food, K-beauty 등 다양한 분야에서 한류 열풍이 불고 있다. <br> 1990년대 드라마를 시작으로 시기별 한류
@@ -45,9 +45,6 @@
     </div>
     <br>
     <section class="img">
-        <div class="image">
-            <img src="static/kcultture.jpg" width="500px" ; height="500px" ; alt="한국문화그림">
-        </div>
         <div class = "container">
           <div class="idol" onload="imginit()">
             <div class="images">
@@ -63,6 +60,12 @@
           <button class="previous">←</button> 
           <button class="next">→</button>
           <script src="js/image.js"></script>
+        </div>
+        <div class="image">
+            <img id= "culimg" src="static/kcultture.jpg" width="500px" ; height="500px" ; alt="한국문화그림"
+            onmouseover="startTimer(3000)"
+            onmouseout="cancelTimer()"> <script src="js/overmouse.js"></script>
+            
         </div>
         <article class="imgarticle">
             <div class="up">

@@ -23,9 +23,4 @@ function siteload() {
 	let select = document.getElementById("site");
 	window.location=select.options[select.selectedIndex].value;
 }
-function hideMenu() {
-	alert("오른쪽 클릭<컨텍스트 메뉴>금지");
-	return false;
-}
-document.oncontextmenu=hideMenu;
 
