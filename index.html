@@ -20,13 +20,13 @@
     </script>
 </head>
 
-<body id="body">
+<body id="body" onload="go()">
     <header>
         <div class="head">
             🟢🔵🟣 2022 Webprogramming Project
         </div>
     </header><br>
-    <div id = "select">
+    <div id = "menu">
       <button id = "button" onclick="change()">배경바꾸기</button>
       <br>
       <select id="site">
@@ -35,9 +35,20 @@
         <option value="http://www.microsoft.com">마이크로소프트
       </select>
         <button onclick="siteload()">웹 사이트 접속</button>
+      <div id = "audioset">
+        <audio id="audio" src = "static/audio.mp3" loop controls>웹 브라우저가 audio 태그를 지원하지 않습니다.</audio><br>
+        <button type="button" id="play" onclick="control(event)">play</button>
+        <button type="button" id="pause" onclick="control(event)">pause</button>
+        <button type="button" id="replay" onclick="control(event)">replay</button>
+        <button type="button" id="vol-" onclick="control(event)">vol-</button>
+        <button type="button" id="vol+" onclick="control(event)">vol+</button>
+        <button type="button" id="mute on/off" onclick="control(event)">mute on/off</button>
+        <script src="js/audio.js"></script>
+      </div>
     </div>
-    <div class="about">
-        <h1><strong id="about">한류에 대해🌊</strong> </h1>
+    <div class="aboutTitle" data-trigger>
+      <h1 class="text"></h1>
+      <script src="js/typing.js"></script>  
     </div>
     <div class="about-content">
         <span style="font-size:larger; background-color:rgba(206, 206, 206, 0.801)">한류</span>란?<br> 📌한국의 대중문화 즉 영화, 방송, 대중음악, 패션 등이 해외에서 인기몰이를 하고 있는 현상📈<br> K-drama를 시작으로 K-pop, K-food, K-beauty 등 다양한 분야에서 한류 열풍이 불고 있다. <br> 1990년대 드라마를 시작으로 시기별 한류
