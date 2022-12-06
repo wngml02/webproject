@@ -85,20 +85,26 @@ table {
 
 thead {
     font-size: 50px;
-    background-color: rgb(255, 222, 179);
+    background-color:rgb(76, 218, 137);
 }
 
 td {
     padding: 25px;
-    background-color: antiquewhite;
+    background-color:rgb(54, 168, 104);
 }
 
 tbody td:hover {
-    background-color: lightcoral;
+    background-color: lightgoldenrodyellow;
 }
 
 section .img {
     display: flex;
+}
+select {
+  height: 25px;
+}
+button{
+  background-color: rgb(128, 206, 118) ;
 }
 
 .image {
